@@ -1,0 +1,402 @@
+@media (max-width: 1200px) {
+    .carousel {
+        .prev {
+            left: 57px;
+        }
+
+        .next {
+            right: 57px;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 375px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+
+        &__official {
+            display: none;
+        }
+    }
+
+    .promo {
+        min-height: 400px;
+
+        &__wrapper {
+            align-items: center;
+        }
+
+    }
+
+    .advantages {
+        &__icons {
+            width: 700px;
+            margin: 0 auto;
+            margin-top: 40px;
+
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+
+        &__descr {
+            font-size: 14px
+        }
+
+    }
+
+    .consultation {
+        .title {
+            // font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__descr {
+            text-align: center;
+            font-size: 16px;
+
+        }
+
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 36px;
+        }
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .carousel {
+        .tns-outer {
+            img {
+                width: 580px;
+            }
+        }
+
+        [data-nav="0"],
+        [data-nav="1"],
+        [data-nav="2"] {
+            width: 50px;
+            transform: translateY(460px);
+        }
+    }
+
+    .catalog {
+        padding-bottom: 50px;
+
+        &__content {
+            justify-content: space-around;
+        }
+    }
+
+    .review {
+        &__content {
+            flex-direction: column;
+            align-items: center;
+
+            &:nth-child(3) {
+                margin-top: 60px;
+                margin-bottom: 60px;
+            }
+
+            &:nth-child(2) {
+                margin-top: 45px;
+            }
+        }
+
+        &__item {
+            display: block;
+            margin: 0 auto;
+        }
+
+        &__wrapper {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+    .promo {
+        &__header {
+            font-size: 30px;
+        }
+
+        &__subheader {
+            font-size: 17px;
+        }
+
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        &__icon {
+            margin-top: 31px
+        }
+    }
+
+    .consultation {
+        &__descr {
+            font-size: 14px;
+        }
+    }
+
+    .advantages {
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px;
+            width: 572px;
+        }
+
+        &__text {
+            margin-top: 10px;
+        }
+
+        &__icon {
+            img {
+                margin-top: 20px;
+            }
+        }
+
+        &__descr {
+            margin-top: 10px;
+        }
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .carousel {
+        padding: 40px 0;
+        padding-bottom: 35px;
+
+        .tns-outer {
+            img {
+                width: 400px;
+                position: relative;
+                top: -3px;
+            }
+        }
+
+        .prev {
+            left: 40px;
+        }
+
+        .next {
+            right: 40px;
+        }
+
+        [data-nav="0"],
+        [data-nav="1"],
+        [data-nav="2"] {
+            width: 40px;
+            transform: translateY(328px);
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+
+        &__tab {
+            &:nth-child(2) {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+        }
+
+        &__content {
+            margin-top: 40px;
+        }
+    }
+
+    .review {
+        &__wrapper {
+            width: 500px;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 100%;
+            padding: 19px 68px 20px 68px;
+            height: 180px
+        }
+
+        &__addr {
+            font-size: 20px;
+        }
+
+        &__phone {
+            font-size: 20px;
+            margin-bottom: 24px
+        }
+
+        &__social-item {
+            width: 40px;
+            height: 40px;
+
+            img {
+                height: 17px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+    .advantages {
+        &__icons {
+            width: 340px;
+        }
+    }
+
+    .consultation {
+
+        &__descr {
+            font-size: 14px;
+        }
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .carousel {
+        .tns-outer {
+            img {
+                width: 350px;
+            }
+        }
+
+        [data-nav="0"],
+        [data-nav="1"],
+        [data-nav="2"] {
+            transform: translateY(286px);
+        }
+    }
+
+    .review {
+        &__wrapper {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 472px) {
+    .modal {
+        width: 340px;
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+@media (max-width: 446px) {
+    .header {
+        flex-direction: column;
+
+        &__contacts {
+            margin-top: 10px;
+        }
+    }
+
+    .promo {
+        &__icons {
+            width: 380px;
+        }
+
+        &__header {
+            font-size: 20px;
+        }
+
+        &__subheader {
+            font-size: 14px;
+        }
+
+        &__icons {
+            width: 300px;
+        }
+    }
+
+    .advantages {
+        &__subheader {
+            font-size: 22px;
+        }
+
+        &__icons {
+            width: 300px;
+        }
+    }
+
+    .carousel {
+
+        .tns-outer {
+            img {
+                width: 325px;
+                padding-left: 20px;
+                padding-right: 20px;
+
+            }
+        }
+
+        [data-nav="0"],
+        [data-nav="1"],
+        [data-nav="2"] {
+            transform: translateY(235px);
+        }
+    }
+
+    .review {
+        &__wrapper {
+            width: 300px;
+        }
+    }
+
+    .footer {
+        &__addr {
+            font-size: 16px;
+        }
+
+        &__addr {
+            margin-bottom: 20px;
+        }
+
+        &__social-item {
+            width: 35px;
+            height: 35px
+        }
+    }
+
+    .modal {
+        width: 300px;
+        padding: 20px 20px 20px 20px;
+
+        &__close {
+            top: 4px;
+            right: 4px
+        }
+    }
+
+    .feed-form {
+        width: 250px
+    }
+}
