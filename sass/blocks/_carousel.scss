@@ -1,0 +1,99 @@
+    .carousel {
+        padding: 81px 0;
+
+        &__inner {
+            width: 750px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .prev,
+        .next {
+            position: absolute;
+            top: 50%;
+            left: -66px;
+            transform: translateY(-50%);
+            border: none;
+            background-color: #fff;
+
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+
+        .next {
+            right: -66px;
+            left: auto;
+        }
+
+        .tns-item {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .tns-outer {
+            position: relative;
+        }
+        .tns-nav {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+
+            
+        }
+
+        [data-nav="0"] {
+            height: 20px;
+            width: 50px;
+            display: block;
+            border: 2px solid #d0d0d0;
+            border-radius: 5px;
+            background-color: #fff;
+            transform: translateY(600px);
+            z-index: 1;
+            cursor: pointer;
+            &:hover {
+                box-shadow: 1px 1px 20px $main-color;
+                border: none;
+            }
+        }
+        [data-nav="1"] {
+            height: 20px;
+            width: 50px;
+            display: block;
+            border: solid;
+            margin-right: 5px;
+            margin-left: 5px;
+            border-radius: 5px;
+            border: 2px solid #d0d0d0;
+            background-color: #fff;
+            transform: translateY(600px);
+            z-index: 1;
+            cursor: pointer;
+            &:hover {
+                box-shadow: 1px 1px 20px $main-color;
+                border: none;
+            }
+        }
+        [data-nav="2"] {
+            height: 20px;
+            width: 50px;
+            display: block;
+            border-radius: 5px;
+            border: 2px solid #d0d0d0;
+            background-color: #fff;
+            transform: translateY(600px);
+            z-index: 1;
+            cursor: pointer;
+            &:hover {
+                box-shadow: 1px 1px 20px $main-color;
+                border: none;
+            }
+        }
+        .tns-nav-active {
+        background-color: $main-color;
+        border-radius: 5px;
+        }
+    }

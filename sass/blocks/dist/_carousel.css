@@ -1,0 +1,74 @@
+.carousel {
+  padding: 81px 0;
+}
+.carousel__inner {
+  width: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+.carousel .prev,
+.carousel .next {
+  position: absolute;
+  top: 50%;
+  left: -66px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #fff;
+}
+.carousel .prev img,
+.carousel .next img {
+  width: 31px;
+  height: 50px;
+}
+.carousel .next {
+  right: -66px;
+  left: auto;
+}
+.carousel .tns-item img {
+  display: block;
+  margin: 0 auto;
+}
+.carousel .tns-outer {
+  position: relative;
+}
+.carousel .tns-nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.carousel [data-nav="0"] {
+  height: 20px;
+  width: 50px;
+  display: block;
+  border: solid;
+  border-radius: 5px;
+  background-color: #fff;
+  transform: translateY(600px);
+  z-index: 1;
+}
+.carousel [data-nav="1"] {
+  height: 20px;
+  width: 50px;
+  display: block;
+  border: solid;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: solid;
+  background-color: #fff;
+  transform: translateY(600px);
+  z-index: 1;
+}
+.carousel [data-nav="2"] {
+  height: 20px;
+  width: 50px;
+  display: block;
+  border-radius: 5px;
+  border: solid;
+  background-color: #fff;
+  transform: translateY(600px);
+  z-index: 1;
+}
+.carousel .tns-nav-active {
+  background-color: black;
+}
